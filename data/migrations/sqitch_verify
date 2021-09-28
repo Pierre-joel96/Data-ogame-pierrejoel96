@@ -1,0 +1,7 @@
+# j'initialise les variables d'environnement
+export SQITCH_USERNAME=ogame
+export SQITCH_PASSWORD=ogame
+# je déploie
+sqitch verify db:pg:ogame
+unset SQITCH_USERNAME
+unset SQITCH_PASSWORD

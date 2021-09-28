@@ -22,9 +22,30 @@ bash data/init_db
 
 On va utiliser SQITCH pour créer notre table.
 
+```
+bash data/migrations/sqitch_deploy 
+```
+
+On peut vérifier en lançant :
+
+```
+bash data/migrations/sqitch_verify 
+```
+
 ## Mise en place de l'architecture EXPRESS
 
-On met en place une architecture avec une route qui répond au post pour enregistrer les jeux de sociétés en BDD
+On met en place une architecture avec une route qui répond au post pour enregistrer les jeux de sociétés en BDD.
+
+1. Initialisation
+2. Création de l'architecture au niveau des fichiers/dossiers
+3. Installation des dépendances
+4. Création des variables d'environnement
+5. Définition du .gitignore
+6. Mise en place des routes / controllers
+7. Mise en place de la couche de données / models
+8. Mise en place des vues / views
+9. Mise en place des tests
+10. Apéro
 
 ## Fonction SQL
 

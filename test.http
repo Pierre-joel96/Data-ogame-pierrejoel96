@@ -1,0 +1,19 @@
+
+# Route pour insérer un jeu en BDD
+POST http://localhost:3000/game
+Content-Type: application/json
+
+{
+
+        "name":"Défis Nature - Animaux rigolos 3",
+        "author":"Valhalla",
+        "theme":"amusant 3",
+        "image":"none.png",
+        "editor":"Valhalla production",
+        "age_minimum":"20",
+        "duration":"2 months",
+        "player_minimum":"16",
+        "player_maximum":"48",
+        "description":"Réunir les tribus Vikings pour affronter le terrible ApothéoZ!"
+
+}

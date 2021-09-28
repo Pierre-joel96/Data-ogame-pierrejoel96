@@ -1,0 +1,5 @@
+%syntax-version=1.0.0
+%project=ogame
+
+init 2021-09-28T09:37:17Z Etudiant O'clock <student@teleporter> # structure de base
+insert_function 2021-09-28T19:59:44Z Etudiant O'clock <student@teleporter> # ajout de la fonction pour gerer les insertions
