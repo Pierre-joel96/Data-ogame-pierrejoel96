@@ -1,0 +1,1 @@
+JEU: nom, thème, image, éditeur, age minimum, temps d'une partie, nombre joueur minimum, nombre joueur maximum, description
