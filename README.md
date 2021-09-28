@@ -12,6 +12,12 @@ Le MCD ne comprendra qu'une seule table dans laquelle on va enregistrer nos jeux
 
 On va créer par script une base de données avec un rôle pour la gérer.
 
+On crèe dans le dossier "data", un script en ligne de commande "init_db" qui lance le script sql "create_db.sql".
+
+```
+bash data/init_db 
+```
+
 ## Création de la table
 
 On va utiliser SQITCH pour créer notre table.
